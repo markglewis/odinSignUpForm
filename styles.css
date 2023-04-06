@@ -1,0 +1,121 @@
+html, body{
+    height:100%;
+}
+
+#company-img{
+    width: 40vw ;
+    height: 100vw ;
+    background-image: url('the-nix-company-ljvm17bH-e0-unsplash.jpg');;
+    float: left;
+    background-size: cover;
+}
+
+#company-banner{
+    height: 10%;
+    margin-top: 30%;
+    background-color: black;
+    opacity: 80%;
+    color: white;
+}
+#logo {
+    float: left;
+    height: 100%;
+    padding-left: 20%;
+}
+#banner-mssg{
+    font-family: 'Roboto', sans-serif;
+    float: left;
+    padding-left: 10%;
+    padding-top: 8%;
+    font-size: 3rem;
+}
+
+.source, .source a{
+    color:black;
+    font-size: .8rem;
+    position: fixed;
+    bottom: 0;
+}
+
+#form-container{
+    width: 60vw;
+    height: 100vw;
+    float: right;
+}
+
+i{
+    font-style: italic;
+}
+h1,p{
+    font-family: 'Roboto', sans-serif;
+    overflow-wrap: normal;
+    margin-top: 3vw;
+    margin-left: 1vw;
+}
+
+p{
+    padding-top: 10px;
+}
+
+#form-container{
+    background-color: rgb(237, 240, 238);
+}
+
+form{
+    background-color: white;
+    margin-top: 20%;
+}
+
+.input-conatiners-left{
+    float: left;
+    margin-top: 2%;
+    margin-left: 2%;
+    display: grid;
+    width: 45%;
+}
+
+.input-conatiners-right{
+    margin-top: 2%;
+    display: grid;
+    width: 45%;
+    margin-left: 50%;
+}
+
+label{
+    grid-column: 1;
+    grid-row: 1;
+    font-size: 1rem;
+}
+
+input{
+    grid-column: 1;
+    grid-row: 2;
+
+}
+  
+input:invalid:not([type="Submit"]) {
+    border-color: red;
+}
+  
+
+
+input:focus{
+    border-color: brown ;
+} 
+  
+input[type="submit"]{
+    background-color: maroon;
+    color: whitesmoke;
+    padding: 15px;
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom: 20px ;
+    border-radius: 10px;
+    border: black   ;
+    font-weight: bold;
+}
+
+#already-link{
+    color: maroon;
+    font-weight: bold;
+}
